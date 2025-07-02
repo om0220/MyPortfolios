@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
   width: 100%;
   background-color: #1f1f1f;
   padding: 12px 0;
@@ -50,9 +50,83 @@
   color: #00bcd4;
 }
 
-/* Optional: Responsive hamburger (for mobile) */
+
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* For now, no hamburger menu logic */
+    display: none; 
+  }
+} */
+.navbar {
+  width: 100%;
+  background-color: #1f1f1f;
+  padding: 0.75rem 0; /* 12px */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.25rem; /* 20px */
+}
+
+.navbar-container img {
+  width: 3.125rem; /* 50px */
+  height: 3.125rem;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.logo {
+  font-size: 1.25rem; /* 20px */
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.25rem; /* 20px */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem; /* 16px */
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+}
+
+/* Responsive: Stack or hide links on small screens */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+    display: none; /* Hidden for now, can be toggled with hamburger logic */
+  }
+
+  .logo {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  .navbar-container img {
+    margin-left: 0;
   }
 }

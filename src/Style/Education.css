@@ -1,4 +1,4 @@
-.section {
+/* .section {
   padding: 50px 20px;
   background-color: #f9f9f9;
   text-align: center;
@@ -53,4 +53,97 @@
 
 .pdf-link:hover {
   background-color: #0056b3;
+} */
+.section {
+  padding: 3.125rem 1.25rem; /* 50px 20px */
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5625rem; /* 25px */
+  align-items: center;
+}
+
+.education-card {
+  background: #fff;
+  padding: 1.25rem; /* 20px */
+  border-radius: 0.75rem; /* 12px */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.edu-type {
+  color: #555;
+  font-size: 0.875rem; /* 14px */
+  margin-bottom: 0.625rem; /* 10px */
+}
+
+.edu-image {
+  margin-top: 0.75rem; /* 12px */
+  max-width: 200px;
+  width: 100%;
+  border-radius: 0.375rem; /* 6px */
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease;
+}
+
+.edu-image:hover {
+  transform: scale(1.03);
+}
+
+.pdf-link {
+  display: inline-block;
+  margin-top: 0.625rem; /* 10px */
+  padding: 0.5rem 0.875rem; /* 8px 14px */
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.375rem; /* 6px */
+  font-size: 0.875rem; /* 14px */
+  transition: background-color 0.3s ease;
+}
+
+.pdf-link:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .section {
+    padding: 2.5rem 1rem;
+  }
+
+  .education-card {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .edu-image {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 2rem 0.75rem;
+  }
+
+  .education-card {
+    width: 100%;
+    padding: 0.875rem;
+  }
+
+  .edu-image {
+    max-width: 140px;
+  }
+
+  .pdf-link {
+    font-size: 0.8125rem; /* ~13px */
+    padding: 0.5rem 0.75rem;
+  }
 }

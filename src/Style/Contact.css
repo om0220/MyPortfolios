@@ -1,4 +1,4 @@
-.section {
+/* .section {
   padding: 40px;
   text-align: center;
   background-color: #f9f9f9;
@@ -21,4 +21,49 @@
 
 .contact-details a:hover {
   text-decoration: underline;
+} */
+.section {
+  padding: 2.5rem; /* 40px */
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.contact-details {
+  margin-top: 1.25rem; /* 20px */
+  font-size: 1rem; /* 16px */
+}
+
+.contact-details p {
+  margin: 0.625rem 0; /* 10px */
+}
+
+.contact-details a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section {
+    padding: 2rem;
+  }
+
+  .contact-details {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 1.5rem;
+  }
+
+  .contact-details {
+    font-size: 0.9rem;
+  }
 }
