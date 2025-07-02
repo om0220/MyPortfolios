@@ -7,7 +7,7 @@ function Projects() {
       name: 'Weather App',
       desc: 'A real-time weather forecast app using OpenWeatherMap API with React hooks.',
       tech: 'React, OpenWeatherMap API, CSS',
-      link: 'https://github.com/om0220/viteweather1.git'
+      link: 'https://viteweather1.vercel.app/'
     },
     {
       name: 'E-commerce Site',
@@ -19,7 +19,7 @@ function Projects() {
       name: 'Travel Website',
       desc: 'Responsive frontend travel website with routing and visual design for destinations and packages.',
       tech: 'React, CSS, JavaScript',
-      link: 'https://github.com/om0220/Travelsite.git'
+      link: 'https://travelsiteupdated.vercel.app/'
     },
     {
       name: 'Student Management System',
