@@ -1,0 +1,18 @@
+.section {
+  padding: 60px 20px;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.about-content .highlight {
+  font-weight: 600;
+  color: #007bff;
+}
