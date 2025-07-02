@@ -7,19 +7,19 @@ function Projects() {
       name: 'Weather App',
       desc: 'A real-time weather forecast app using OpenWeatherMap API with React hooks.',
       tech: 'React, OpenWeatherMap API, CSS',
-      link: 'https://github.com/om0220/weather_react.git'
+      link: 'https://github.com/om0220/viteweather1.git'
     },
     {
       name: 'E-commerce Site',
       desc: 'An online shopping cart system using React and Redux with product state management.',
       tech: 'React, Redux, React Router, CSS',
-      link: 'https://github.com/om0220/redux_react.git'
+      link: 'https://github.com/om0220/Ecommercesite.git'
     },
     {
       name: 'Travel Website',
       desc: 'Responsive frontend travel website with routing and visual design for destinations and packages.',
       tech: 'React, CSS, JavaScript',
-      link: 'https://github.com/om0220/travel_react.git'
+      link: 'https://github.com/om0220/Travelsite.git'
     },
     {
       name: 'Student Management System',
